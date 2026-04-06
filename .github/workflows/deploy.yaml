@@ -30,7 +30,7 @@ jobs:
           cache: 'npm' # Change to 'yarn' or 'pnpm' if you use those
           
       - name: Install dependencies
-        run: npm ci # Change to 'yarn install' or 'pnpm install' if needed
+        run: npm install # Change to 'yarn install' or 'pnpm install' if needed
         
       - name: Build
         run: npm run build # Change to 'yarn build' or 'pnpm build' if needed
