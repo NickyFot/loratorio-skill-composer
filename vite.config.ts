@@ -5,6 +5,10 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // ADD YOUR BASE PATH HERE
+  // Replace '<your-repo-name>' with the exact name of your GitHub repository
+  base: "/loratorio-skill-composer/", 
+
   server: {
     host: "::",
     port: 8080,
@@ -17,6 +21,13 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
-    dedupe: ["react", "react-dom", "react/jsx-runtime", "react/jsx-dev-runtime", "@tanstack/react-query", "@tanstack/query-core"],
+    dedupe: [
+      "react", 
+      "react-dom", 
+      "react/jsx-runtime", 
+      "react/jsx-dev-runtime", 
+      "@tanstack/react-query", 
+      "@tanstack/query-core"
+    ],
   },
 }));
