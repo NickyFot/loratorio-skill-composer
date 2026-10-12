@@ -92,7 +92,7 @@ const Index = () => {
           <p className="text-sm text-muted-foreground mb-1">
             <sup>1</sup>Cambridge Research Laboratory, Toshiba Europe &nbsp; <sup>2</sup>Independent Researcher
           </p>
-          <p className="text-sm text-muted-foreground mb-8">arXiv 2025</p>
+          <p className="text-sm text-muted-foreground mb-8">NeurIPS 2026</p>
 
           <div className="flex flex-wrap justify-center gap-3 mb-12">
             <LinkButton href="https://arxiv.org/abs/2508.11624" icon={<FileText className="w-4 h-4" />} label="Paper" />
@@ -451,14 +451,11 @@ const Index = () => {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-6">BibTeX</h2>
           <pre className="bg-secondary/50 rounded-lg p-5 text-sm overflow-x-auto font-mono text-foreground/80 border border-border">
-            {`@misc{foteinopoulou2025loratoriointrinsicapproachlora,
-  title={LoRAtorio: An intrinsic approach to LoRA Skill Composition},
-  author={Niki Foteinopoulou and Ignas Budvytis and Stephan Liwicki},
-  year={2025},
-  eprint={2508.11624},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2508.11624},
+            {`@inproceedings{foteinopoulou2026loratorio,
+  title={{LoRAtorio}: An intrinsic approach to {LoRA} Skill Composition},
+  author={Foteinopoulou, Niki and Budvytis, Ignas and Liwicki, Stephan},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2026}
 }`}
           </pre>
         </div>
